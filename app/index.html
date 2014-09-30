@@ -1,0 +1,200 @@
+<!doctype html>
+<html class="no-js">
+	<head>
+		<meta charset="utf-8">
+		<title>Cleanflight Flight Controller - 32bit MultiWii</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+		<!-- build:css styles/vendor.css -->
+		<!-- bower:css -->
+		<!-- endbower -->
+		<!-- endbuild -->
+
+		<!-- build:css({.tmp,app}) styles/main.css -->
+		<link rel="stylesheet" href="styles/main.css">
+		<!-- endbuild -->
+
+		<!-- build:js scripts/vendor/modernizr.js -->
+		<script src="bower_components/modernizr/modernizr.js"></script>
+		<!-- endbuild -->
+	</head>
+	<body>
+		<!--[if lt IE 10]>
+		<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+		<![endif]-->
+
+		<div class="container">
+
+			<div class="header">
+				<nav class="navbar navbar-default navbar-top" role="navigation">
+					<div class="container-fluid">
+						<ul class="nav navbar-nav">
+							<li><a href="https://github.com/hydra/cleanflight/tree/master/docs"><span class="glyphicon glyphicon-book"></span> Documentation</a></li>
+							<li><a href="http://github.com/hydra/cleanflight"><span class="glyphicon glyphicon-folder-open"></span> Firmware Source</a></li>
+							<li><a href="http://github.com/hydra/cleanflight-configurator"><span class="glyphicon glyphicon-folder-open"></span> GUI Source</a></li>
+							<li><a href="https://github.com/hydra/cleanflight/tree/master/obj"><span class="glyphicon glyphicon-download"></span> Firmware Download</a></li>
+							<li><a href="https://chrome.google.com/webstore/detail/cleanflight-configurator/enacoimjcgeinfnnnpajinjgmkahmfgb"><span class="glyphicon glyphicon-download"></span> GUI Download</a></li>
+							<li><a href="irc://freenode.net/#cleanflight"><span class="glyphicon glyphicon-comment"></span> IRC channel</a></li>
+							<li><a href="https://twitter.com/Cleanflight"><span class="glyphicon glyphicon-retweet"></span> Twitter</a></li>
+							<li><a href="https://www.youtube.com/playlist?list=PL6H1fAj_XUNVBEcp8vbMH2DrllZAGWkt8"><span class="glyphicon glyphicon-film"></span> Videos</a></li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+
+			<div class="well">
+
+				<div class="row">
+					<div class="col-sm-2"></div>
+					<div class="col-sm-10"><h2 class="text-center">Cleanflight</h2></div>
+				</div>
+				<div class="row">
+					<div class="col-sm-2"><img src="images/multirotor.jpg" class="img-rounded" width="150"></div>
+					<div class="col-sm-10 text-center">
+						<p>Cleanflight can be used on multirotor aircraft and fixed-wing aircraft, it supports a variety for shapes and motor counts, not limited to</p>
+						<p>quadcopters, hexacopters, octocopters, tricopters and planes. Cleanflight is Open-Source flight controller software which is 32-bit version of the original 8-bit MultiWii code.</p>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="features">
+				<h2>Features</h2>
+
+				<div class="row">
+					<div class="col-sm-3">
+						<div class="panel panel-info">
+							<div class="panel-heading">
+								<h3 class="panel-title text-center">Awesome flight performance</h3>
+							</div>
+							<div class="panel-body">
+								Most people that have tried other flight controller software are impressed how stable and responsive aircraft running cleanflight fly.
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="panel panel-info">
+							<div class="panel-heading">
+								<h3 class="panel-title text-center">Open-Source</h3>
+							</div>
+							<div class="panel-body">
+								Source code is on github, you're free to modify it and submit improvements. GPL Licensed. Issue tracker. Pull requests
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="panel panel-info">
+							<div class="panel-heading">
+								<h3 class="panel-title text-center">Modern 32-bit hardware support</h3>
+							</div>
+							<div class="panel-body">
+								When 32-bit equipped flight controllers are so cheap, why hold yourself back with old 8-bit hardware and software? Cleanflight leverages the capabilities of modern embedded processors to give you the best control.
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="panel panel-info">
+							<div class="panel-heading">
+								<h3 class="panel-title text-center">Community driven</h3>
+							</div>
+							<div class="panel-body">
+								Cleanflight maintainers actively seek and listen to user feedback from users. Friendly community. Active developers. IRC Channel.
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-sm-3">
+						<div class="panel panel-info">
+							<div class="panel-heading">
+								<h3 class="panel-title text-center">Toys!</h3>
+							</div>
+							<div class="panel-body">
+								We know you like toys such as controllable LED strips, OLED displays and SONAR sensors, they're fun!
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="panel panel-info">
+							<div class="panel-heading">
+								<h3 class="panel-title text-center">Modern development principles</h3>
+							</div>
+							<div class="panel-body">
+								As software grows over time it often becomes harder to maintain and fragile; Cleanflight attempts to bring modern software development practices to the table. We like and encourage understandable, decoupled, well-tested and
+								self-explanatory code.
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="panel panel-info">
+							<div class="panel-heading">
+								<h3 class="panel-title text-center">Broad hardware support</h3>
+							</div>
+							<div class="panel-body">
+								Cleanflight currently runs on 8 different boards and supports enough sensors and CPUs for you to adapt it to you own custom flight controller board, even more off-the-shelf hardware support is planned.
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="panel panel-info">
+							<div class="panel-heading">
+								<h3 class="panel-title text-center">Up-to-date documentation</h3>
+							</div>
+							<div class="panel-body">
+								The documentation is maintained along with the code and attempts to stay as up-to-date as possible. Code contributors are asked to provide documentation updates to go with the code.
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="footer text-center">
+				(c)2014 Cleanflight Team<br>Images by: <a href="https://www.flickr.com/photos/fredflickr/">John Biehler</a> licensed under <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA 2.0</a>
+			</div>
+		</div>
+
+		<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+		<script>
+			(function (b, o, i, l, e, r) {
+				b.GoogleAnalyticsObject = l;
+				b[l] || (b[l] =
+				         function () {(b[l].q = b[l].q || []).push(arguments)});
+				b[l].l = +new Date;
+				e = o.createElement(i);
+				r = o.getElementsByTagName(i)[0];
+				e.src = '//www.google-analytics.com/analytics.js';
+				r.parentNode.insertBefore(e, r)
+			}(window, document, 'script', 'ga'));
+			ga('create', 'UA-52820920-3', 'auto');
+			ga('send', 'pageview');
+		</script>
+
+		<!-- build:js scripts/vendor.js -->
+		<!-- bower:js -->
+		<script src="bower_components/jquery/dist/jquery.js"></script>
+		<!-- endbower -->
+		<!-- endbuild -->
+
+		<!-- build:js scripts/plugins.js -->
+		<script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/affix.js"></script>
+		<script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/alert.js"></script>
+		<script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/dropdown.js"></script>
+		<script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/tooltip.js"></script>
+		<script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/modal.js"></script>
+		<script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/transition.js"></script>
+		<script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/button.js"></script>
+		<script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/popover.js"></script>
+		<script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/carousel.js"></script>
+		<script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/scrollspy.js"></script>
+		<script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/collapse.js"></script>
+		<script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/tab.js"></script>
+		<!-- endbuild -->
+
+		<!-- build:js scripts/main.js -->
+		<script src="scripts/main.js"></script>
+		<!-- endbuild -->
+	</body>
+</html>
